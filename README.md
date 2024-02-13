@@ -61,3 +61,18 @@ Demonstrate understanding of how to create nested routes in a Next.js applicatio
 4. Implement a programmatic navigation from "page1" to "page2" using the `useRouter` hook from Next. When the user clicks a button on "page1," they should be navigated to "page2."
 
 5. Verify that programmatic navigation from "page1" to "page2" works as expected, and that the route information is displayed on "page2."
+
+### Exercise: Route Organization and Ignoring Routes in Next.js
+
+#### Goal:
+
+Organizing routes using folders and excluding certain folders from being treated as routes in a Next.js application.
+
+#### Instructions:
+
+1. Create the "users" folder (but it shouldn't be a route).
+2. Inside the "users" folder create a "userinfo" route.
+3. Inside the "app" directory create another folder name "auth" but it (shouldn't be a route).
+4. Inside the "auth" folder create a login route which will only print (Please Login To See The Content)
+
+#### `If want to ignore specific folder to be as route , just wrap folder name in () [i.e.; (auth)]. The route [auth/login] will not work [/login] will work even though we have placed login & register inside auth folder.`

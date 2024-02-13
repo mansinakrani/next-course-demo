@@ -1,3 +1,5 @@
+//If want to ignore specific folder to be as route , just wrap folder name in () [like (auth)]. The route [auth/login] will not work [/login] will work even though we have placed login & register inside auth folder.
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 
