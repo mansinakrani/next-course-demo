@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
 
-function about() {
+const Projects = () => {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Projects Page</h1>
       <Link href="/">Home</Link>
     </div>
   )
 }
 
-export default about
+export default Projects
