@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <section>
-      <h1>Ignoring routes</h1>
+      <h1>Dynamic routes</h1>
       <br/>
       <button onClick={() => navigate('login')}>Go to Login Page</button>
     </section>

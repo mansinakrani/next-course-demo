@@ -76,3 +76,21 @@ Organizing routes using folders and excluding certain folders from being treated
 4. Inside the "auth" folder create a login route which will only print (Please Login To See The Content)
 
 #### `If want to ignore specific folder to be as route , just wrap folder name in () [i.e.; (auth)]. The route [auth/login] will not work [/login] will work even though we have placed login & register inside auth folder.`
+
+### Exercise: Dynamic Routes in Next.js
+
+#### Goal:
+
+Understanding and implementing dynamic routes in a Next.js application.
+
+#### Instructions:
+
+1. Create a dynamic route "post/[id]" where "id" is a dynamic parameter.
+
+2. In the "post/[id]" route, create a page that displays the content of the post with the id specified in the route.
+
+3. Use Next.js's `getStaticPaths` and `getStaticProps` to fetch and display the post content dynamically.
+
+4. Verify that navigating to different post ids in the "post/[id]" route displays the corresponding post content.
+
+5. Bonus: Implement a navigation menu that includes links to different post ids. Ensure that clicking on these links navigates the user to the corresponding post content without a full page refresh.
