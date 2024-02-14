@@ -115,3 +115,17 @@ Working with URL segments to create dynamic routes and access data from the URL 
 5. When a user accesses a URL like "/products/123" (where "123" is a dynamic product ID), the page should display information about the product with the corresponding ID.
 
 6. Verify that you can access dynamic product pages with different IDs in the URL, and the page displays information based on the ID from the URL segment.
+
+### Exercise: Creating a Custom "Not Found" Page in Next.js
+
+#### Goal:
+
+Create a custom "Not Found" (404) page in a Next.js application to improve the user experience when accessing non-existing routes.
+
+#### Instructions:
+
+1. In your Next.js project, create a custom error page named "404.js" OR "not-found.js" in the "pages" directory. This page will serve as the custom "Not Found" page for your application.
+
+2. Customize the "404.js" page with a message or content to inform users that the page they are looking for does not exist.
+
+3. Verify that when accessing a non-existing route, users are redirected to the custom "Not Found" page (404.js) and see the message you provided.

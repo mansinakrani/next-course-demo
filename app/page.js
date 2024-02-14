@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <section>
-      <h1>Catch All routes</h1>
+      <h1>Page Not Found</h1>
       <br/>
     </section>
   )
