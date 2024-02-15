@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <section>
-      <h1>Page Not Found</h1>
+      <h1>Layout Basics</h1>
       <br/>
     </section>
   )
