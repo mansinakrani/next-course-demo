@@ -200,3 +200,19 @@ Generating metadata for pages in a Next.js application. Metadata can be used for
 3. Create a custom `generateMetadata` function or module that generates metadata for each page based on the defined title, description, and image URL.
 
 4. On each page, use the `generateMetadata` function to set the appropriate metadata, including the `<title>`, `<meta name="description">`, and Open Graph (OG) tags in the `<head>` section of the HTML.
+
+### Exercise: Fetching Data in the Client-Side of a Next.js Application
+
+#### Goal:
+
+Fetching data on the client side in a Next.js application using client-side rendering techniques.
+
+#### Instructions:
+
+2. Create a new route in the "app" directory, named "clientdatafetch"
+
+3. In the "clientdatafetch" route, use Next.js's `useEffect` and `fetch` (or any preferred data fetching method) to retrieve data from a publicly available API, such as the JSONPlaceholder API (https://jsonplaceholder.typicode.com) or (https://dummyjson.com/products).
+
+4. Display the fetched data on the "clientdatafetch" page. For example, you can display a list of posts, users, or any other relevant data from the API.
+
+5. Ensure that the data fetching and rendering occur on the client side by making the API request in the browser, not during server-side rendering.

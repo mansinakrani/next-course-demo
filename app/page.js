@@ -11,9 +11,7 @@ const Home = () => {
 
   return (
     <section>
-      <h1>Optimizations</h1>
-      <br/>
-      <h2 className={roboto.className}>Google Fonts</h2>
+      <h1 className={roboto.className}>Fetch Data</h1>
     </section>
   )
 }
