@@ -2,7 +2,10 @@
 
 'use client'
 
-import React from 'react'
+import React from 'react';
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({ subsets: ["latin"], weight: "500" });
 
 const Home = () => {
 
@@ -10,6 +13,7 @@ const Home = () => {
     <section>
       <h1>Optimizations</h1>
       <br/>
+      <h2 className={roboto.className}>Google Fonts</h2>
     </section>
   )
 }
