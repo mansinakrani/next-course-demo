@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <section>
-      <h1 className={roboto.className}>Fetch Data</h1>
+      <h1 className={roboto.className}>Backend params & GET method</h1>
     </section>
   )
 }

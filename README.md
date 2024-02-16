@@ -232,3 +232,19 @@ Server-side data fetching in a Next.js application, allowing students to underst
 3. Display the fetched data on the "serverdatafetch" route. For example, you can display a list of posts, users, or any other relevant data from the API.
 
 4. Ensure that the data fetching occurs on the server side and that the page content is fully rendered and delivered to the client with the data when the page is accessed.
+
+### Exercise: Handling Backend Parameters in a Next.js Application
+
+#### Goal:
+
+Handling backend parameters and query strings in a Next.js application, allowing students to understand how to work with dynamic server-side data.
+
+#### Instructions:
+
+1. Create a new route in the "api" directory, named "userdetails"
+
+2. Implement server-side parameter handling in the "userdetails" route using (response.params.somedata). Define a parameter in the URL, such as a user ID, which can be accessed as a route parameter.
+
+3. Fetch user data from a API, using the user ID from the parameter to retrieve specific user information.
+
+4. Log the fetched user data.
