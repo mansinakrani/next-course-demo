@@ -216,3 +216,19 @@ Fetching data on the client side in a Next.js application using client-side rend
 4. Display the fetched data on the "clientdatafetch" page. For example, you can display a list of posts, users, or any other relevant data from the API.
 
 5. Ensure that the data fetching and rendering occur on the client side by making the API request in the browser, not during server-side rendering.
+
+### Exercise: Fetching Data on the Server Side in a Next.js Application
+
+#### Goal:
+
+Server-side data fetching in a Next.js application, allowing students to understand the benefits of server-side rendering.
+
+#### Instructions:
+
+1. Create a new route in the "app" directory, named "serverdatafetch"
+
+2. In the "serverdatafetch" page, use either fetch or axios to fetch the data from a publicly available API, such as the JSONPlaceholder API (https://jsonplaceholder.typicode.com).
+
+3. Display the fetched data on the "serverdatafetch" route. For example, you can display a list of posts, users, or any other relevant data from the API.
+
+4. Ensure that the data fetching occurs on the server side and that the page content is fully rendered and delivered to the client with the data when the page is accessed.
