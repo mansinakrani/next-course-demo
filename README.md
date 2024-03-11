@@ -248,3 +248,18 @@ Handling backend parameters and query strings in a Next.js application, allowing
 3. Fetch user data from a API, using the user ID from the parameter to retrieve specific user information.
 
 4. Log the fetched user data.
+
+### Exercise: Using Middlewares in a Next.js Application
+
+#### Goal:
+
+Middlewares in a Next.js application to enhance and modify requests and responses in a systematic way.
+
+#### Instructions:
+
+1. Create a custom middleware function in the "middleware" file. For example, you can create a middleware that logs information about incoming requests, such as the request method, URL.
+
+2. Implement the middleware function to run on every request made to your Next.js application.
+3. Create a new route in the "app" directory, named "About"
+
+4. Implement the "About" page to respond with a simple message like "Hello, welcome to the website!" for all incoming requests.
