@@ -285,3 +285,19 @@ MONGO_URL='mongodb://127.0.0.1:27017/demo'
 JWT_SECRET=abac12afsdkjladf
 NODE_ENV='development'
 ```
+
+### Exercise: Working with the GET & POST Method in a Next.js Application
+
+#### Goal:
+
+HTTP GET method to retrieve data from a server & POST method in a Next.js application.
+
+#### Instructions:
+
+1. Create a new folder in the "api" directory, named "getdata"
+
+2. Implement the "getdata" page to make an HTTP GET request to a publicly available API of your choice. You can use a popular public API like the JSONPlaceholder API (https://jsonplaceholder.typicode.com) for this exercise.
+
+3. Retrieve data from the API using the GET method. For example, you can retrieve a list of posts or users.
+
+4. Used a postman tool to see all the data coming from that API.
